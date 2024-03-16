@@ -29,7 +29,7 @@ const Header = () => {
           <li>
             <div className={css["input_container"]}>
               <label for="search" className={css["search_label"]}>
-                <svg className={css["search_icon"]} width={21.5} height={21.5}>
+                <svg className={css.icons} width={21.5} height={21.5}>
                   <use href="../../../public/symbol-defs.svg#icon-vector"></use>
                 </svg>
               </label>
@@ -38,14 +38,14 @@ const Header = () => {
           </li>
           <li>
             <a href="#">
-              <svg width={24} height={24}>
+              <svg className={css.icons} width={24} height={24}>
                 <use href="../../../public/symbol-defs.svg#icon-heart"></use>
               </svg>
             </a>
           </li>
           <li>
             <a href="#">
-              <svg width={24} height={24}>
+              <svg className={css.icons} width={24} height={24}>
                 <use href="../../../public/symbol-defs.svg#icon-bag"></use>
               </svg>
             </a>
