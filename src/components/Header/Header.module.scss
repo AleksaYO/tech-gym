@@ -2,18 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  padding: 12px 0px 12px 0px;
+  padding: 12px 98px 12px 98px;
 }
 
 .logo {
   color: #343434;
-  text-shadow: 0px 4px 4px #00000080;
-  -webkit-text-stroke: 1px black;
   text-decoration: none;
   font-family: Montserrat;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 58px;
   letter-spacing: -2.5px;
   text-align: center;
@@ -25,6 +22,8 @@
   list-style: none;
   display: flex;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 
   & > li {
     text-transform: uppercase;
