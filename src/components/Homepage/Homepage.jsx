@@ -47,7 +47,7 @@ const HomePage = () => {
                 >
                   <div className={css.circle}>
                     <svg width={16.5} height={16.5}>
-                      <use href="../../../public/sprite.svg#icon-heart"></use>
+                      <use href="../../assets#sprite.svg#icon-heart"></use>
                     </svg>
                   </div>
                   <img src={img} alt="#" />
@@ -83,7 +83,7 @@ const HomePage = () => {
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
                   <svg width={58} height={12}>
-                    <use href="../../../public/sprite.svg#icon-rating"></use>
+                    <use href="../../assets#sprite.svg#icon-rating"></use>
                   </svg>
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
@@ -100,7 +100,7 @@ const HomePage = () => {
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
                   <svg width={58} height={12}>
-                    <use href="../../../public/sprite.svg#icon-rating"></use>
+                    <use href="../../assets#sprite.svg#icon-rating"></use>
                   </svg>
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
@@ -117,7 +117,7 @@ const HomePage = () => {
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
                   <svg width={58} height={12}>
-                    <use href="../../../public/sprite.svg#icon-rating"></use>
+                    <use href="../../assets#sprite.svg#icon-rating"></use>
                   </svg>
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
@@ -134,7 +134,7 @@ const HomePage = () => {
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
                   <svg width={58} height={12}>
-                    <use href="../../../public/sprite.svg#icon-rating"></use>
+                    <use href="../../assets#sprite.svg#icon-rating"></use>
                   </svg>
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
