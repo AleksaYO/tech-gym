@@ -2,6 +2,7 @@ import css from "./HomePage.module.scss";
 import img from "../../images/Rectangle.jpg";
 import clothes from "./clothes";
 import reviwer from "../../images/f1eafcc65076de7a1d51bc0416146be1.jpeg";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -36,19 +37,25 @@ const HomePage = () => {
       <div className={css.hot}>
         <h3 className={css["hot_title"]}>Найгарячіші товари</h3>
         <ul className={css["hot_list"]}>
-          {clothes.map(({ img, title, desc, count, price }) => {
+          {clothes.map(({ id, img, title, desc, count, price }) => {
             return (
-              <li className={css["hot_item"]}>
-                <div className={css.circle}>
-                  <svg width={16.5} height={16.5}>
-                    <use href="../../../public/sprite.svg#icon-heart"></use>
-                  </svg>
-                </div>
-                <img src={img} alt="#" />
-                <h4 className={css["hot_item-title"]}>{title}</h4>
-                <p className={css["hot_item-desc"]}>{desc}</p>
-                <p className={css["hot_item-count"]}>{count}</p>
-                <p className={css["hot_item-price"]}>{price}</p>
+              <li key={id} className={css["hot_item"]}>
+                <Link
+                  className={css["hot_item-link"]}
+                  to={`/product/${id}`}
+                  key={id}
+                >
+                  <div className={css.circle}>
+                    <svg width={16.5} height={16.5}>
+                      <use href="../../../public/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </div>
+                  <img src={img} alt="#" />
+                  <h4 className={css["hot_item-title"]}>{title}</h4>
+                  <p className={css["hot_item-desc"]}>{desc}</p>
+                  <p className={css["hot_item-count"]}>{count}</p>
+                  <p className={css["hot_item-price"]}>{price}</p>
+                </Link>
               </li>
             );
           })}

@@ -3,6 +3,7 @@ import cloth2 from "../../images/clothes/Rectangle2.jpg";
 import cloth3 from "../../images/clothes/Rectangle3.jpg";
 const clothes = [
   {
+    id: 1,
     img: cloth2,
     title: "Термобілизна для бодібілдерів",
     desc: "Для чоловіків",
@@ -10,6 +11,7 @@ const clothes = [
     price: "4000 грн.",
   },
   {
+    id: 2,
     img: cloth1,
     title: "Майка для бодібілдерів",
     desc: "Для жінок",
@@ -18,6 +20,7 @@ const clothes = [
   },
 
   {
+    id: 3,
     img: cloth3,
     title: "Ланцюжок для бодібілдерів",
     desc: "Аксесуари",
