@@ -31,7 +31,7 @@ const Header = () => {
             <div className={css["input_container"]}>
               <label htmlFor="search" className={css["search_label"]}>
                 <svg className={css.icons} width={21.5} height={21.5}>
-                  <use href="../../../public/sprite.svg#icon-vector"></use>
+                  <use href="./sprite.svg#icon-vector"></use>
                 </svg>
               </label>
               <input id="search" className={css["search_input"]} type="text" />
@@ -40,14 +40,14 @@ const Header = () => {
           <li>
             <a href="#">
               <svg className={css.icons} width={24} height={24}>
-                <use href="../../../public/sprite.svg#icon-heart"></use>
+                <use href="./sprite.svg#icon-heart"></use>
               </svg>
             </a>
           </li>
           <li>
             <a href="#">
               <svg className={css.icons} width={24} height={24}>
-                <use href="../../../public/sprite.svg#icon-bag"></use>
+                <use href="./sprite.svg#icon-bag"></use>
               </svg>
             </a>
           </li>
