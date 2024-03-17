@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom";
-import clothes from "../Homepage/clothes";
+import clothes from "../HotProd/clothes";
 import css from "./ProductPage.module.scss";
 import reviwer from "../../images/f1eafcc65076de7a1d51bc0416146be1.jpeg";
+import { BagIcon, HeartIcon, RatingIcon } from "../Icons/Icons";
 
 const ProductPage = () => {
   const { id } = useParams();
@@ -91,12 +92,8 @@ const ProductPage = () => {
                   <button type="button">купити у кредит</button>
                 </div>
                 <div className={css.icons}>
-                  <svg width={30} height={30}>
-                    <use href="./sprite.svg#icon-heart"></use>
-                  </svg>
-                  <svg width={30} height={30}>
-                    <use href="./sprite.svg#icon-bag"></use>
-                  </svg>
+                  <HeartIcon />
+                  <BagIcon />
                 </div>
               </div>
             </div>
@@ -111,9 +108,7 @@ const ProductPage = () => {
               <div className={css["image_wrapper"]}>
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
-                  <svg width={58} height={12}>
-                    <use href="./sprite.svg#icon-rating"></use>
-                  </svg>
+                  <RatingIcon />
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
               </div>
@@ -128,9 +123,7 @@ const ProductPage = () => {
               <div className={css["image_wrapper"]}>
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
-                  <svg width={58} height={12}>
-                    <use href="./sprite.svg#icon-rating"></use>
-                  </svg>
+                  <RatingIcon />
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
               </div>
@@ -145,9 +138,7 @@ const ProductPage = () => {
               <div className={css["image_wrapper"]}>
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
-                  <svg width={58} height={12}>
-                    <use href="./sprite.svg#icon-rating"></use>
-                  </svg>
+                  <RatingIcon />
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
               </div>
@@ -162,9 +153,7 @@ const ProductPage = () => {
               <div className={css["image_wrapper"]}>
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
-                  <svg width={58} height={12}>
-                    <use href="./sprite.svg#icon-rating"></use>
-                  </svg>
+                  <RatingIcon />
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
               </div>
@@ -185,9 +174,7 @@ const ProductPage = () => {
               <li key={id} className={css["hot_item"]}>
                 <a href="#" className={css["hot_item-link"]}>
                   <div className={css.circle}>
-                    <svg width={16.5} height={16.5}>
-                      <use href="./sprite.svg#icon-heart"></use>
-                    </svg>
+                    <HeartIcon />
                   </div>
                   <img src={img} alt="#" />
                   <h4 className={css["hot_item-title"]}>{title}</h4>

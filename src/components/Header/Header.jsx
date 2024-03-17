@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import css from "./Header.module.scss";
+import { SearchIcon, HeartIcon, BagIcon } from "../Icons/Icons";
 
 const Header = () => {
   return (
@@ -30,25 +31,19 @@ const Header = () => {
           <li>
             <div className={css["input_container"]}>
               <label htmlFor="search" className={css["search_label"]}>
-                <svg className={css.icons} width={21.5} height={21.5}>
-                  <use href="./sprite.svg#icon-vector"></use>
-                </svg>
+                <SearchIcon />
               </label>
               <input id="search" className={css["search_input"]} type="text" />
             </div>
           </li>
           <li>
             <a href="#">
-              <svg className={css.icons} width={24} height={24}>
-                <use href="./sprite.svg#icon-heart"></use>
-              </svg>
+              <HeartIcon />
             </a>
           </li>
           <li>
             <a href="#">
-              <svg className={css.icons} width={24} height={24}>
-                <use href="./sprite.svg#icon-bag"></use>
-              </svg>
+              <BagIcon />
             </a>
           </li>
         </ul>

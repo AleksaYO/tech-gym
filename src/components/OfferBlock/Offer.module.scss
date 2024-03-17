@@ -1,0 +1,58 @@
+.offer {
+  padding: 36px 98px;
+  margin: 0, auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer_box {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.offer_title {
+  color: #343434;
+  margin: 0;
+  width: 570px;
+
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.offer-sub_title {
+  color: #626262;
+  margin: 0;
+  width: 420px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.offer_btn {
+  background-color: black;
+  padding: 20px 35px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 165px;
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
