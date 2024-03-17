@@ -92,10 +92,10 @@ const ProductPage = () => {
                 </div>
                 <div className={css.icons}>
                   <svg width={30} height={30}>
-                    <use href="../../../public/sprite.svg#icon-heart"></use>
+                    <use href="/sprite.svg#icon-heart"></use>
                   </svg>
                   <svg width={30} height={30}>
-                    <use href="../../../public/sprite.svg#icon-bag"></use>
+                    <use href="/sprite.svg#icon-bag"></use>
                   </svg>
                 </div>
               </div>
@@ -112,7 +112,7 @@ const ProductPage = () => {
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
                   <svg width={58} height={12}>
-                    <use href="../../../public/sprite.svg#icon-rating"></use>
+                    <use href="/sprite.svg#icon-rating"></use>
                   </svg>
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
@@ -129,7 +129,7 @@ const ProductPage = () => {
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
                   <svg width={58} height={12}>
-                    <use href="../../../public/sprite.svg#icon-rating"></use>
+                    <use href="/sprite.svg#icon-rating"></use>
                   </svg>
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
@@ -146,7 +146,7 @@ const ProductPage = () => {
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
                   <svg width={58} height={12}>
-                    <use href="../../../public/sprite.svg#icon-rating"></use>
+                    <use href="/sprite.svg#icon-rating"></use>
                   </svg>
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
@@ -163,7 +163,7 @@ const ProductPage = () => {
                 <img width={50} height={50} src={reviwer} alt="" />
                 <div className={css["reviews_info"]}>
                   <svg width={58} height={12}>
-                    <use href="../../../public/sprite.svg#icon-rating"></use>
+                    <use href="/sprite.svg#icon-rating"></use>
                   </svg>
                   <p className={css["reviews_name"]}>Жора Ремінгтон</p>
                 </div>
@@ -186,7 +186,7 @@ const ProductPage = () => {
                 <a href="#" className={css["hot_item-link"]}>
                   <div className={css.circle}>
                     <svg width={16.5} height={16.5}>
-                      <use href="../../../public/sprite.svg#icon-heart"></use>
+                      <use href="/sprite.svg#icon-heart"></use>
                     </svg>
                   </div>
                   <img src={img} alt="#" />
